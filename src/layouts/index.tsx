@@ -20,8 +20,8 @@ function Layouts() {
 }
 
 const StyledLayout = styled(Box)`
-  margin-top: 56px;
-  min-height: calc(100vh - 56px);
+  margin-top: 54px;
+  height: calc(100vh - 56px);
   background-color: ${(props) => props.theme.palette.background.default};
 `;
 

@@ -3,6 +3,9 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material";
 
 const theme = createTheme({
+  typography: {
+    fontSize: 12,
+  },
   palette: {
     background: {
       default: "#e0e0e0",

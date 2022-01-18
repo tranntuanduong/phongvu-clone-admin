@@ -48,6 +48,104 @@ const menuList = [
       },
     ],
   },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
+  {
+    name: "Quản lí sản phẩm",
+    icon: <LocalOfferIcon />,
+    children: [
+      {
+        name: "Tất cả sản phẩm",
+        to: "/product-list",
+      },
+      {
+        name: "Thêm sản phẩm",
+        to: "/page1",
+      },
+    ],
+  },
 ];
 
 const Slidebar = () => {
@@ -56,11 +154,12 @@ const Slidebar = () => {
       sx={{
         pt: 2,
         width: "100%",
-        height: "calc(100vh - 56px)",
-        maxWidth: 240,
+        height: "100vh",
+        maxWidth: 250,
         bgcolor: "background.paper",
         boxShadow: "rgb(0 0 0 / 10%) 0px 0.5rem 1rem 0px",
         position: "fixed",
+        overflowY: "scroll",
       }}
       component="nav"
       aria-labelledby="nested-list-subheader"
